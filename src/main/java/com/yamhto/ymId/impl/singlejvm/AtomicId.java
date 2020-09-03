@@ -1,0 +1,1 @@
+package com.yamhto.ymId.impl.singlejvm;import com.yamhto.ymId.api.IdCreater;import java.util.concurrent.atomic.AtomicLong;public class AtomicId implements IdCreater {    public AtomicLong id = new AtomicLong();    public String nextId() {        return null;    }    public String previousId() {        return null;    }}

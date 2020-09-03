@@ -1,0 +1,1 @@
+package com.yamhto.ymId.mapper;import com.yamhto.ymId.base.BaseMapper;import com.yamhto.ymId.model.Sequence;import org.apache.ibatis.annotations.Mapper;import org.springframework.stereotype.Repository;@Mapper@Repositorypublic interface SequenceMapper extends BaseMapper<Sequence> {}

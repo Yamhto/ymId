@@ -1,0 +1,1 @@
+package com.yamhto.ymId.model;import lombok.Data;import javax.persistence.Id;import javax.persistence.Table;import java.util.Date;@Data@Table(name = "Sequence")public class Sequence {    @Id    private Long id;    private String sequenceType;    private long startValue;    private long value;    private Date createTime;    private Long step;}

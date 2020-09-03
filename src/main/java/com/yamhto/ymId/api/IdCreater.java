@@ -1,0 +1,1 @@
+package com.yamhto.ymId.api;public interface IdCreater {    String nextId();    String previousId();}
