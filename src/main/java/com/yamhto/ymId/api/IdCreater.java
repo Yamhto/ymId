@@ -1,1 +1,1 @@
-package com.yamhto.ymId.api;public interface IdCreater {    String nextId();    String previousId();}
+package com.yamhto.ymId.api;public interface IdCreater {    String nextId(String prefix);    String previousId(String prefix);    String nextId(String prefix,Long step);}
